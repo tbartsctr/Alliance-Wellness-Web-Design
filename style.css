@@ -80,7 +80,7 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 9%;
+    margin-left: 8%;
 }
 
 li{
@@ -274,4 +274,63 @@ h7{
 
 #cardImg4{
     margin-left: 12px;
+}
+
+.productDiv{
+    border: solid black 2px;
+    display: flex;
+    height: 800px;
+}
+
+#productImg{
+    width: 40vw;
+    height: 70vh;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.shopTxtDiv{
+    border: solid #dbf0fe 2px;
+    border-radius: 15px;
+    width: 400px;
+    height: 70vh;
+    margin-left: 8vw;
+    background-color: #dbf0fe;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.shopTxt{
+    border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#ourProductsTxt{
+    color:#034694;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#productsBodyTxt{
+    color:#034694;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h8{
+    color:#034694;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#browseProductsBtn{
+    width: 150px;
+    height: 50px;
+    background-color: #dbf0fe;
+    border-color: #dbf0fe;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#034694
 }
