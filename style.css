@@ -214,7 +214,7 @@ h7{
 
 .focusAreaCardsDiv{
     //border: solid black 2px;
-    height: 800px;
+    height: 350px;
     width: 100%;
     margin-top: 5vh;
     display: flex;
@@ -277,9 +277,12 @@ h7{
 }
 
 .productDiv{
-    border: solid black 2px;
+    //border: solid black 2px;
     display: flex;
     height: 800px;
+    justify-content: center;
+    
+   
 }
 
 #productImg{
@@ -298,32 +301,47 @@ h7{
     background-color: #dbf0fe;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    
     
 }
 
 .shopTxt{
-    border: solid black 2px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    align-items: center;
+    height: 70vh;
+    margin-top: 100px;
+    
+    
 }
 
 #ourProductsTxt{
     color:#034694;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 0px;
+    margin-right: 300px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    white-space: nowrap;
+    
+    
 
 }
 
 #productsBodyTxt{
     color:#034694;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 10vh;
+    
     
 }
 
 h8{
     color:#034694;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 170px;
 }
 
 #browseProductsBtn{
@@ -332,5 +350,7 @@ h8{
     background-color: #dbf0fe;
     border-color: #dbf0fe;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:#034694
+    color:#034694;
+    margin-bottom: 50px;
+    margin-right: 250px;
 }
